@@ -1,0 +1,228 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+\moderncvtheme[grey]{classic}
+\moderncvicons{awesome}
+% Define \cvdoublecolumn, which sets its arguments in two columns without any labels
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem{}{%
+    \begin{minipage}[t]{1.3\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{1.3\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+% usage: \cvreference{name}{address line 1}{address line 2}{address line 3}{address line 4}{e-mail address}{phone number}
+% Everything but the name is optional
+% If \addresssymbol, \emailsymbol or \phonesymbol are specified, they will be used.
+% (Per default, \addresssymbol isn't specified, the other two are specified.)
+% If you don't like the symbols, remove them from the following code, including the tilde ~ (space).
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\renewcommand*{\cventry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}% I changed this line (with comma) ...
+%\ifthenelse{\equal{#4}{}}{}{ {\slshape#4}}% ... into this one (without comma).
+\ifthenelse{\equal{#5}{}}{}{, #5}%
+\ifthenelse{\equal{#6}{}}{}{, #6}%
+\strut%
+\ifx&#7&%
+  \else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
+\renewcommand*{\cvitem}[3][.25em]{%
+  \begin{tabular}{@{}p{\maincolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\hintscolumnwidth}@{}}%
+    {#3} &\raggedleft\hintstyle{#2}%
+  \end{tabular}%
+  \par\addvspace{#1}}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.75,margin=.75in]{geometry}
+\recomputelengths
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{footmisc}
+\usepackage[resetlabels]{multibib}
+\newcites{pr,inprep,post,talk}{Peer-Reviewed Journals,%
+    Submitted or In Preparation,%
+    Poster Presentations, Oral Presentations}
+
+\makeatletter
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand*\bibliographyitemlabel{\@biblabel{\arabic{enumiv}}}
+\RenewDocumentCommand{\section}{sm}{%
+  \strut\sectionstyle{#2\hfill}%
+  \par\nobreak\addvspace{1ex}\@afterheading
+  }
+\makeatother
+
+\name{Timothy B.}{Weng}
+\title{Curriculum Vitae}
+\address{4441 Goodfellows Ct.}{Tucker, Georgia 30084}{}
+\email{timothy-weng@uiowa.edu}
+\phone[mobile]{+1~(630)~809-8264}
+\social[github]{tbweng}
+\extrainfo{Prepared \today}
+
+\begin{document}
+\makecvtitle
+
+\vspace{-1em}
+\section{Education} \smallskip \hrule \medskip
+
+\cventry{2012 -- 2018 (expected)}{PhD. Psychology (Cognitive Neuroscience)}%
+    {The University of Iowa}{Iowa City, IA}{}%
+    {\underline{Dissertation}: Brain network predictors of exercise behavior change
+    in sedentary older adults: an emotion and decision-making perspective\\
+     \underline{Advisor}: Michelle W. Voss\\
+     \underline{Committee}: Daniel Tranel, Natalie Denburg, Jatin Vaidya, and Ryan LaLumiere}\medskip
+\cventry{2007 -- 2011}{BS. Psychology (Brain \& Cognition)}{University of Illinois at Urbana-Champaign}{Urbana, IL}{}{}{}
+
+\bigskip{}
+\section{Technical Expertise} \smallskip \hrule \medskip
+Data analysis, structural/functional magnetic resonance imaging,
+    resting state functional connectivity, software engineering,
+    saliva analysis, psychophysiology, experimental design, cognitive testing.
+\subsection{Technologies}
+\cvline{}{Scientific:
+    FreeSurfer, FSL, AFNI,   % fMRI
+    nilearn, Jupyter,                 % fMRI/Python
+    E-prime, Acqknowledge}
+\cvline{}{Cluster computing: Oracle/Sun Grid Engine (SGE)}
+\cvline{}{Version control: git (GitHub)}
+%\cvline{Administration}{nginx, Apache, GitLab, gitolite/git-annex}
+
+\subsection{Programming Languages}
+\cvline{}{R, Bash, MATLAB, \LaTeX, Python}
+
+\bigskip{}
+\section{Software} \smallskip \hrule \medskip
+\subsection{Contributions to Open Source Scientific Software}
+\textbf{Resting State Repository} \\
+Repository of scripts for processing resting-state functional connectivity data\\
+\emph{Address:} \href{https://github.com/HBClab/RestingState}{https://github.com/HBClab/RestingState}\\
+\emph{Role:} Developer, Contributor\\
+
+\textbf{GE DICOM Converter} \\
+Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
+\emph{Address:} \href{https://github.com/HBClab/GE_dcm_to_nii}{https://github.com/HBClab/GE\_dcm\_to\_nii}\\
+\emph{Role:} Contributor
+
+\bigskip{}
+\section{Additional Research Experience} \smallskip \hrule \medskip
+
+\cventry{2011 -- 2012}{Laboratory Manager and Research Assistant}%
+    {Cross-Modal Plasticity Laboratory}{Urbana, IL}{}{}
+\cventry{2011 -- 2012}{Research Assistant}%
+    {Cross-Modal Plasticity Laboratory}{Urbana, IL}{}{}
+\cventry{2011 -- 2012}{Assistant Technical Manager}%
+    {Diffusive Optical Imaging Laboratory}{Urbana, IL}{}{}
+\cventry{2010 -- 2011}{Research Assistant}{University of Illinois at Urbana-Champaign}%
+    {Urbana, IL}{}%
+    {Cognitive Neuroimaging Laboratory. Advisors: Monica Fabiani and Gabriele Gratton}
+\cventry{2010 -- 2011}{Research Assistant}{University of Illinois at Urbana-Champaign}%
+    {Urbana, IL}{}%
+    {Korol-Gold Laboratory for Learning \& Memory. Advisors: Donna Korol and Paul Gold}
+\cventry{2010 -- 2011}{Laboratory Technician}%
+    {College of Veterinary Medicine}{Urbana, IL}{}{}
+\cventry{2011 -- 2012}{Laboratory Technician}%
+    {Human Immunologic Monitoring Facility}{University of Chicago}{Chicago, IL}{}
+
+\nocitepr{*}
+\nociteinprep{Pontifex,Weng,Vossa,Vossb,Sutterer,Guzman-Velez}
+\nocitepost{*}
+\nocitetalk{*}
+
+\bigskip{}
+\section{Publications} \smallskip \hrule \medskip
+\bibliographystylepr{cvbib}
+\bibliographypr{MyPubs}
+\bibliographystyleinprep{unsrt}
+\bibliographyinprep{MyInPrep}
+
+\bigskip{}
+\section{Presentations} \smallskip \hrule \medskip
+\bibliographystylepost{cvbib}
+\bibliographypost{MyConfProceedings}
+\bibliographystyletalk{cvbib}
+\bibliographytalk{MyTalks}
+
+
+    % \cventry{year--year}{Degree}{Institution}{City}{ \textit{Grade} }{Description}
+\bigskip{}
+\section{Grants} \smallskip \hrule \medskip
+\cvline{2017}{Graduate \& Professional Student Government Research Grant, \$1000,%
+   The University of Iowa}
+
+\bigskip{}
+\section{Awards and Fellowships} \smallskip \hrule \medskip
+\cvline{Summer 2017}{Graduate College Summer Research Fellowship, The University of Iowa}
+\cvline{Spring 2017}{Post-Comprehensive Research Award, The University of Iowa}
+\cvline{2014 -- current}{Elected Trainee for Institutional T32-GM108540-02 (NIH-NIGMS) “Mechanisms of Health and Disease at the Behavioral-Biomedical Interface,” The University of Iowa}
+\cvline{2014 -- 2015}{Travel Awards (4)}
+\cvline{2014}{Best Data Blitz Presentation}
+\cvline{2014}{Graduate College Scholarly Excellence Fellowship,
+    The University of Iowa}
+\cvline{2014}{Honorable Mention, NSF Graduate Research Fellowship}
+\cvline{2014}{Interdisciplinary Research Fellowship, The University of Iowa}
+\cvline{2012}{Dr. Jordan L. Cohen Prize for Excellence in Aging Research,
+The University of Iowa}
+\cvline{2011}{Dr. Michael G.H. Coles Award for excellence in cognitive
+neuroscience research, U. of Illinois}
+\cvline{2011}{Departmental Distinction, Dept of Psychology, U. of Illinois}
+\cvline{2011}{First Place Poster Award, Annual Biology Research Poster Competition, U. of Illinois}
+
+
+
+\bigskip{}
+\section{Teaching Experience} \smallskip \hrule \medskip
+\cventry{Fall 2014}{Teaching Fellow}{The University of Iowa}{Iowa City}{IA}%
+    {PSY 6280 Structural \& Functional MRI Methods and Applications (graduate course)}
+\cventry{Fall 2013}{Teaching Assistant}{The University of Iowa}{Iowa City}{IA}%
+    {PSY 1001 Elementary Psychology}
+
+\bigskip{}
+\section{Service} \smallskip \hrule \medskip
+\cventry{}{Reviewer}{Cerebral Cortex (2015), Brain Connectivity (2014), Medicine \& Science in Sports \& Exercise (2014, 2017)}%
+  {}{}{}
+\cventry{2015 -- 2016}{Executive Committee Student Representative}{Behavioral-Biomedical Interface Training Program}{U. of Iowa}{}{}
+\cventry{2014 -- 2015}{Graduate Student Advisory Committee Member}{Department of Psychological \& Brain Sciences}{U. of Iowa}{}{}
+\cventry{2012}{Conference Co-Organizer}{Modern Brains: Literary Studies and the Cognitive Sciences}{U. of Illinois}{}{}
+\cventry{2011}{Mentor}{Project NEURON: Outreach for underrepresented students}{U. of Illinois}{}{}
+\cventry{2011}{Organizer}{Cognitive Neuroimaging Laboratory Undergraduate Journal Club}{U. of Illinois}{}{}
+
+\bigskip{}
+\section{Professional Memberships} \smallskip \hrule \medskip
+\noindent Society for Neuroscience\\
+\noindent Cognitive Neuroscience Society\\
+
+\clearpage
+\bigskip{}
+\section{References} \smallskip \hrule \medskip
+
+\cvdoublecolumn{\cvreference{Michelle W. Voss}
+    {Department of Psychological and Brain Sciences}
+    {The University of Iowa}
+    {Iowa City, IA 52242}
+    {}
+    {michelle-voss@uiowa.edu}
+    {+1 (319) 335-2057}%
+    }
+    {\cvreference{Daniel Tranel}
+        {Department of Psychological and Brain Sciences}
+        {Department of Neurology}
+        {The University of Iowa}
+        {Iowa City, IA 52242}
+        {daniel-tranel@uiowa.edu}
+        {+1 (319) 384-6050}%
+    }
+
+\end{document}
