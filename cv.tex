@@ -51,9 +51,10 @@
 
 \usepackage{footmisc}
 \usepackage[resetlabels]{multibib}
-\newcites{pr,inprep,post,talk}{Peer-Reviewed Journals,%
-    Submitted or In Preparation,%
-    Poster Presentations, Oral Presentations}
+\newcites{pr,inprep,nopr,post,talk}{Peer-Reviewed,%
+    Submitted or In Preparation, Other Published Work,%
+    Selected Conference Posters, %
+    Oral Presentations}
 
 \makeatletter
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -78,30 +79,30 @@
 \vspace{-1em}
 \section{Education} \smallskip \hrule \medskip
 
-\cventry{2012 -- 2018 (expected)}{PhD. Psychology (Cognitive Neuroscience)}%
+\cventry{2012 -- 2018 (expected)}{PhD, Psychology (Cognitive Neuroscience)}%
     {The University of Iowa}{Iowa City, IA}{}%
     {\underline{Dissertation}: Brain network predictors of exercise behavior change
     in sedentary older adults: an emotion and decision-making perspective\\
      \underline{Advisor}: Michelle W. Voss\\
      \underline{Committee}: Daniel Tranel, Natalie Denburg, Jatin Vaidya, and Ryan LaLumiere}\medskip
-\cventry{2007 -- 2011}{BS. Psychology (Brain \& Cognition)}{University of Illinois at Urbana-Champaign}{Urbana, IL}{}{}{}
+\cventry{2007 -- 2011}{BS, Psychology (Brain \& Cognition)}{University of Illinois at Urbana-Champaign}{Urbana, IL}{}{}{}
 
 \bigskip{}
 \section{Technical Expertise} \smallskip \hrule \medskip
 Data analysis, structural/functional magnetic resonance imaging,
-    resting state functional connectivity, software engineering,
-    saliva analysis, psychophysiology, experimental design, cognitive testing.
+    resting state functional connectivity, software development for fMRI analysis,
+    experimental design, cognitive testing, analysis of saliva biomarkers, psychophysiology
 \subsection{Technologies}
 \cvline{}{Scientific:
-    FreeSurfer, FSL, AFNI,   % fMRI
+    FSL, AFNI, FreeSurfer,    % fMRI
     nilearn, Jupyter,                 % fMRI/Python
-    E-prime, Acqknowledge}
+    E-prime, AcqKnowledge}
 \cvline{}{Cluster computing: Oracle/Sun Grid Engine (SGE)}
 \cvline{}{Version control: git (GitHub)}
 %\cvline{Administration}{nginx, Apache, GitLab, gitolite/git-annex}
 
 \subsection{Programming Languages}
-\cvline{}{R, Bash, MATLAB, \LaTeX, Python}
+\cvline{}{Bash, R, \LaTeX, MATLAB, Python}
 
 \bigskip{}
 \section{Software} \smallskip \hrule \medskip
@@ -119,25 +120,28 @@ Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
 \bigskip{}
 \section{Additional Research Experience} \smallskip \hrule \medskip
 
-\cventry{2011 -- 2012}{Laboratory Manager and Research Assistant}%
-    {Cross-Modal Plasticity Laboratory}{Urbana, IL}{}{}
+\cventry{2010 -- 2012}{Laboratory Manager and Research Assistant}%
+    {Cognitive Neuroimaging Laboratory}{University of Illinois at Urbana-Champaign}%
+    {Urbana, IL}{Advisors: Monica Fabiani and Gabriele Gratton}
 \cventry{2011 -- 2012}{Research Assistant}%
-    {Cross-Modal Plasticity Laboratory}{Urbana, IL}{}{}
+    {Cross-Modal Plasticity Laboratory}{University of Illinois at Urbana-Champaign}%
+    {Urbana, IL}{Advisor: Matthew Dye}
 \cventry{2011 -- 2012}{Assistant Technical Manager}%
-    {Diffusive Optical Imaging Laboratory}{Urbana, IL}{}{}
+    {Diffusive Optical Imaging Laboratory}{Beckman Institute}%
+    {Urbana, IL}{Advisor: Ed Maclin}
 \cventry{2010 -- 2011}{Research Assistant}{University of Illinois at Urbana-Champaign}%
-    {Urbana, IL}{}%
-    {Cognitive Neuroimaging Laboratory. Advisors: Monica Fabiani and Gabriele Gratton}
-\cventry{2010 -- 2011}{Research Assistant}{University of Illinois at Urbana-Champaign}%
-    {Urbana, IL}{}%
-    {Korol-Gold Laboratory for Learning \& Memory. Advisors: Donna Korol and Paul Gold}
+    {Urbana, IL}{Korol-Gold Laboratory for Learning \& Memory}%
+    {Advisors: Donna Korol}
 \cventry{2010 -- 2011}{Laboratory Technician}%
-    {College of Veterinary Medicine}{Urbana, IL}{}{}
-\cventry{2011 -- 2012}{Laboratory Technician}%
-    {Human Immunologic Monitoring Facility}{University of Chicago}{Chicago, IL}{}
+    {College of Veterinary Medicine}{Urbana, IL}{}%
+    {Supervisors: Lois Hoyer, Dominique Griffon, and Page Fredericks}
+\cventry{Summer 2008}{Laboratory Technician}%
+    {Human Immunologic Monitoring Facility}{University of Chicago}{Chicago, IL}%
+    {Supervisor: Yuanyuan Zha}
 
 \nocitepr{*}
-\nociteinprep{Pontifex,Weng,Vossa,Vossb,Sutterer,Guzman-Velez}
+\nociteinprep{Pontifex,Vossa,Weng,Sutterer,Guzman-Velez}
+\nocitenopr{Weng2016}
 \nocitepost{*}
 \nocitetalk{*}
 
@@ -145,8 +149,12 @@ Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
 \section{Publications} \smallskip \hrule \medskip
 \bibliographystylepr{cvbib}
 \bibliographypr{MyPubs}
+\bibliographystylenopr{cvbib}
+\bibliographynopr{MyPubs_nonPR}
+\clearpage
 \bibliographystyleinprep{unsrt}
 \bibliographyinprep{MyInPrep}
+
 
 \bigskip{}
 \section{Presentations} \smallskip \hrule \medskip
@@ -164,9 +172,9 @@ Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
 
 \bigskip{}
 \section{Awards and Fellowships} \smallskip \hrule \medskip
+\cvline{2014 -- present}{Elected Trainee for Institutional T32-GM108540-02 (NIH-NIGMS) “Mechanisms of Health and Disease at the Behavioral-Biomedical Interface,” The University of Iowa}
 \cvline{Summer 2017}{Graduate College Summer Research Fellowship, The University of Iowa}
 \cvline{Spring 2017}{Post-Comprehensive Research Award, The University of Iowa}
-\cvline{2014 -- current}{Elected Trainee for Institutional T32-GM108540-02 (NIH-NIGMS) “Mechanisms of Health and Disease at the Behavioral-Biomedical Interface,” The University of Iowa}
 \cvline{2014 -- 2015}{Travel Awards (4)}
 \cvline{2014}{Best Data Blitz Presentation}
 \cvline{2014}{Graduate College Scholarly Excellence Fellowship,
@@ -175,10 +183,10 @@ Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
 \cvline{2014}{Interdisciplinary Research Fellowship, The University of Iowa}
 \cvline{2012}{Dr. Jordan L. Cohen Prize for Excellence in Aging Research,
 The University of Iowa}
-\cvline{2011}{Dr. Michael G.H. Coles Award for excellence in cognitive
-neuroscience research, U. of Illinois}
-\cvline{2011}{Departmental Distinction, Dept of Psychology, U. of Illinois}
-\cvline{2011}{First Place Poster Award, Annual Biology Research Poster Competition, U. of Illinois}
+\cvline{2011}{Dr. Michael G.H. Coles Award for Excellence in Cognitive
+Neuroscience Research, University of Illinois}
+\cvline{2011}{Departmental Distinction, Dept of Psychology, University of Illinois}
+\cvline{2011}{First Place Poster Award, Annual Biology Research Poster Competition, University of Illinois}
 
 
 
@@ -191,13 +199,13 @@ neuroscience research, U. of Illinois}
 
 \bigskip{}
 \section{Service} \smallskip \hrule \medskip
-\cventry{}{Reviewer}{Cerebral Cortex (2015), Brain Connectivity (2014), Medicine \& Science in Sports \& Exercise (2014, 2017)}%
+\cventry{}{Assistance with Peer Review}{Cerebral Cortex (2015), Brain Connectivity (2014), Medicine \& Science in Sports \& Exercise (2014, 2017)}%
   {}{}{}
-\cventry{2015 -- 2016}{Executive Committee Student Representative}{Behavioral-Biomedical Interface Training Program}{U. of Iowa}{}{}
-\cventry{2014 -- 2015}{Graduate Student Advisory Committee Member}{Department of Psychological \& Brain Sciences}{U. of Iowa}{}{}
-\cventry{2012}{Conference Co-Organizer}{Modern Brains: Literary Studies and the Cognitive Sciences}{U. of Illinois}{}{}
-\cventry{2011}{Mentor}{Project NEURON: Outreach for underrepresented students}{U. of Illinois}{}{}
-\cventry{2011}{Organizer}{Cognitive Neuroimaging Laboratory Undergraduate Journal Club}{U. of Illinois}{}{}
+\cventry{2015 -- 2016}{Executive Committee Student Representative}{Behavioral-Biomedical Interface Training Program}{The University of Iowa}{}{}
+\cventry{2014 -- 2015}{Graduate Student Advisory Committee Member}{Department of Psychological \& Brain Sciences}{The University of Iowa}{}{}
+\cventry{2012}{Conference Co-Organizer}{Modern Brains: Literary Studies and the Cognitive Sciences}{University of Illinois}{}{}
+\cventry{2011}{Mentor}{Project NEURON: Outreach for Underrepresented Students}{University of Illinois}{}{}
+\cventry{2011}{Organizer}{Cognitive Neuroimaging Laboratory Undergraduate Journal Club}{University of Illinois}{}{}
 
 \bigskip{}
 \section{Professional Memberships} \smallskip \hrule \medskip
@@ -205,7 +213,8 @@ neuroscience research, U. of Illinois}
 \noindent Cognitive Neuroscience Society\\
 
 \clearpage
-\bigskip{}
+
+% \bigskip{}
 \section{References} \smallskip \hrule \medskip
 
 \cvdoublecolumn{\cvreference{Michelle W. Voss}
@@ -223,6 +232,24 @@ neuroscience research, U. of Illinois}
         {Iowa City, IA 52242}
         {daniel-tranel@uiowa.edu}
         {+1 (319) 384-6050}%
+    }
+    \bigskip{}
+
+\cvdoublecolumn{\cvreference{Susan Lutgendorf}
+    {Department of Psychological and Brain Sciences}
+    {The University of Iowa}
+    {Iowa City, IA 52242}
+    {}
+    {susan-lutgendorf@uiowa.edu}
+    {+1 (319) 335-2432}%
+    }
+    {\cvreference{Laura Chaddock-Heyman}
+        {4221 Beckman Institute}
+        {University of Illinois at Urbana-Champaign}
+        {Urbana, IL}
+        {}
+        {lchaddo2@illinois.edu}
+        {+1 (217) 300-0746}%
     }
 
 \end{document}
