@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: build/inprep.aux
+The style file: cvbib.bst
+Database file #1: MyInPrep.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty year in Cole
+Warning--empty journal in Cole
+Warning--empty year in Dodla
+Warning--empty journal in Dodla
+Warning--empty year in Sutterer
+Warning--empty journal in Sutterer
+Warning--empty year in Wenga
+Warning--empty journal in Wenga
+You've used 4 entries,
+            3111 wiz_defined-function locations,
+            635 strings with 6144 characters,
+and the built_in function-call counts, 7488 in all, are:
+= -- 913
+> -- 167
+< -- 0
++ -- 159
+- -- 62
+* -- 500
+:= -- 672
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 39
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 926
+empty$ -- 481
+format.name$ -- 66
+if$ -- 1453
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 55
+newline$ -- 22
+num.names$ -- 8
+pop$ -- 448
+preamble$ -- 1
+purify$ -- 70
+quote$ -- 0
+skip$ -- 117
+stack$ -- 0
+substring$ -- 974
+swap$ -- 195
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 47
+warning$ -- 8
+while$ -- 39
+width$ -- 5
+write$ -- 33
+(There were 8 warnings)

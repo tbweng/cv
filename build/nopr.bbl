@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Weng2016}
+\textbf{Weng TB} and Voss MW (2016).
+\newblock {Active Voice: Aerobic Exercise Targets Specific Higher-order Brain
+  Functions}.
+\newblock \emph{Invited highlighted commentary for the American College of
+  Sports Medicine Bulletin.}
+
+\end{thebibliography}

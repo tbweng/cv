@@ -1,0 +1,106 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Weng2018}
+\textbf{Weng TB}, Clark R, Wharff C, Reist L, Sigurdsson G, Schmid P,
+  Kirschbaum C, Magnotta VA, Pierce GL, and Voss MW (2018).
+\newblock {Psychophysiological markers underlying the affective response to
+  acute exercise in older adults}.
+\newblock In \emph{Cognitive Aging Conference}. Atlanta, GA.
+
+\bibitem{Clark2017}
+Clark R, \textbf{Weng TB}, Wharff C, Reist L, DuBose LE, Darling WG, Schmid P,
+  Sigurdsson G, Magnotta VA, Pierce GL, and Voss MW (2017).
+\newblock {Physical Activity and Aerobic Fitness Related to Episodic
+  Associative Learning and Hippocampal Volume in Healthy Older Adults}.
+\newblock In \emph{Symposium on Physical Exercise and Brain Health}. Irvine,
+  CA.
+
+\bibitem{Gwizdala2017}
+Gwizdala KL, \textbf{Weng TB}, Voss MW, and Pontifex MB (2017).
+\newblock {The Effect Of Single Bouts Of Exercise On Cerebral Blood Flow In
+  Preadolescent Children}.
+\newblock In \emph{North American Society for the Psychology of Sport and
+  Physical Activity}. San Diego, CA.
+
+\bibitem{DuBose2016}
+DuBose LE, Voss MW, \textbf{Weng TB}, Dubishar KM, Lane-Cordova A, Sigurdsson
+  G, Schmid P, and Pierce GL (2016).
+\newblock {Higher Aerobic Fitness Is Associated with Lower Cerebrovascular
+  Reactivity in Older Adults Independent of Age and Aortic Stiffness}.
+\newblock In \emph{Experimental Biology}. San Diego, CA.
+
+\bibitem{Weng2016a}
+\textbf{Weng TB}, Pierce GL, Darling WG, Falk D, Magnotta VA, and Voss MW
+  (2016).
+\newblock {Toward a Hedonic Theory of Exercise Behaviors: Acute Exercise
+  Selectively Increases the Functional Connectivity of Reward and Affective
+  Brain Systems in Older Adults}.
+\newblock In \emph{Cognitive Neuroscience Society Annual Meeting}. New York,
+  NY.
+
+\bibitem{DuBose2015}
+DuBose LE, Voss MW, \textbf{Weng TB}, Dubishar KM, Lane-Cordova A, Swift M,
+  Sigurdsson G, Schmid P, and Pierce GL (2015).
+\newblock {Lower carotid compliance and greater carotid $\beta$-stiffness index
+  is associated with slower processing speed and reduced working memory
+  performance in middle-aged/older healthy adults}.
+\newblock In \emph{North American Artery Conference}. Chicago, IL.
+
+\bibitem{Weng2015a}
+\textbf{Weng TB}, Guzman-Velez E, Cooke GE, Herrel S, Burzynska AZ, Wong CN,
+  McAuley E, Kramer AF, Tranel D, and Voss MW (2015).
+\newblock {Greater Distribution of Executive Control Networks Supports
+  Cognitive Reserve in Bilingual Older Adults}.
+\newblock In \emph{Society for Neuroscience}. Chicago, IL.
+
+\bibitem{Weng2015}
+\textbf{Weng TB}, Wong CN, Burzynska AZ, Chaddock-Heyman L, Monti JM, McAuley
+  E, Kramer AF, and Voss MW (2015).
+\newblock {Age-related de-differentiation of functional brain networks at rest
+  is associated with stability of executive functions}.
+\newblock In \emph{Cognitive Neuroscience Society Annual Meeting}. San
+  Francisco, CA.
+
+\bibitem{Dubose2014}
+Dubose LE, \textbf{Weng TB}, Dubishar K, Mani M, Voss MW, and Pierce GL (dec
+  2014).
+\newblock {Higher aortic stiffness and carotid systolic and pulse pressure are
+  selectively associated with lower white matter integrity in the genu and
+  frontal cortex in older healthy adults}.
+\newblock In \emph{Artery Research}, volume~8, page 174.
+\newblock \doi{10.1016/j.artres.2014.09.028}.
+
+\bibitem{Weng2014}
+\textbf{Weng TB}, Pierce GL, Darling WG, Falk D, Magnotta VA, and Voss MW
+  (2014).
+\newblock {Acute increases in functional connectivity following physical
+  exercise are associated with cerebrovascular reactivity}.
+\newblock In \emph{Fourth Biennial Conference on Resting State/Brain
+  Connectivity}. Boston, MA.
+
+\bibitem{Weng2014b}
+\textbf{Weng TB}, Pierce GL, Darling WG, Magnotta V, and Voss MW (2014).
+\newblock {The acute effects of exercise on large-scale networks of the human
+  aging brain: insights into the protective role of exercise on the brain}.
+\newblock In \emph{Cognitive Neuroscience Society Annual Meeting}. Boston, MA.
+
+\bibitem{Weng2014a}
+\textbf{Weng TB}, Wong CN, Burzynska AZ, Chaddock-Heyman L, Monti J, McAuley E,
+  Kramer AF, and Voss MW (2014).
+\newblock {Age-related differences in executive function are associated with
+  the differentiation of functional brain networks at rest}.
+\newblock In \emph{Cognitive Aging Conference}. Atlanta, GA.
+
+\bibitem{Sutterer2013}
+Sutterer M, Voss MW, Mani M, Wong CN, Cooke GE, Belfi A, \textbf{Weng TB},
+  Tranel D, McAuley E, and Kramer AF (2013).
+\newblock {Age-related differences in anterior cingulate-insula connectivity
+  are associated with the fronto-executive but not emotional saliency network}.
+\newblock In \emph{Cognitive Neuroscience Society Annual Meeting}. San
+  Francisco, CA.
+
+\end{thebibliography}

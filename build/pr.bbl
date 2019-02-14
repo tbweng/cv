@@ -1,0 +1,77 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Vossb}
+Voss MW, Sutterer M, \textbf{Weng TB}, Burzynska AZ, Fanning J, Salerno E,
+  Gothe NP, Ehlers DK, McAuley E, and Kramer AF (jan 2019).
+\newblock {Nutritional supplementation boosts aerobic exercise effects on
+  functional brain systems}.
+\newblock \emph{Journal of Applied Physiology}, 126(1):77--87.
+\newblock \doi{10.1152/japplphysiol.00917.2017}.
+
+\bibitem{Chaddock-Heyman2018}
+Chaddock-Heyman L, \textbf{Weng TB}, Kienzler C, Erickson KI, Voss MW,
+  Drollette ES, Raine LB, Kao SC, Hillman CH, and Kramer AF (jan 2018).
+\newblock {Scholastic performance and functional connectivity of brain networks
+  in children}.
+\newblock \emph{PLOS ONE}, 13(1):e0190,073.
+\newblock \doi{10.1371/journal.pone.0190073}.
+
+\bibitem{Pontifex2018}
+Pontifex MB, Gwizdala KL, \textbf{Weng TB}, Zhu DC, and Voss MW (dec 2018).
+\newblock {Cerebral blood flow is not modulated following acute aerobic
+  exercise in preadolescent children}.
+\newblock \emph{International Journal of Psychophysiology}, 134:44--51.
+\newblock \doi{10.1016/j.ijpsycho.2018.10.007}.
+
+\bibitem{Voss2017}
+Voss MW, Clark R, Freedberg M, \textbf{Weng T}, and Hazeltine E (mar 2018).
+\newblock {Striking a chord with healthy aging: memory system cooperation is
+  related to preserved configural response learning in older adults}.
+\newblock \emph{Neurobiology of Aging}, 63:44--53.
+\newblock \doi{10.1016/j.neurobiolaging.2017.11.001}.
+
+\bibitem{DuBose2017}
+DuBose LE, Voss MW, \textbf{Weng TB}, Kent JD, Dubishar KM, Lane-Cordova A,
+  Sigurdsson G, Schmid P, Barlow PB, and Pierce GL (apr 2017).
+\newblock {Carotid $\beta$-stiffness index is associated with slower processing
+  speed but not working memory or white matter integrity in healthy
+  middle-aged/older adults}.
+\newblock \emph{Journal of Applied Physiology}, 122(4):868--876.
+\newblock \doi{10.1152/japplphysiol.00769.2016}.
+
+\bibitem{Weng2017}
+\textbf{Weng TB}, Pierce GL, Darling WG, Falk D, Magnotta VA, and Voss MW (mar
+  2017).
+\newblock {The Acute Effects of Aerobic Exercise on the Functional Connectivity
+  of Human Brain Networks}.
+\newblock \emph{Brain Plasticity}, 2(2):171--190.
+\newblock \doi{10.3233/BPL-160039}.
+
+\bibitem{Voss2016}
+Voss MW, \textbf{Weng TB}, Burzynska AZ, Wong CN, Cooke GE, Clark R, Fanning J,
+  Awick E, Gothe NP, Olson EA, McAuley E, and Kramer AF (may 2016).
+\newblock {Fitness, but not physical activity, is related to functional
+  integrity of brain networks associated with aging}.
+\newblock \emph{NeuroImage}, 131:113--125.
+\newblock \doi{10.1016/j.neuroimage.2015.10.044}.
+
+\bibitem{Weng2015}
+\textbf{Weng TB}, Pierce GL, Darling WG, and Voss MW (jul 2015).
+\newblock {Differential effects of acute exercise on distinct aspects of
+  executive function}.
+\newblock \emph{Medicine and Science in Sports and Exercise}, 47(7):1460--1469.
+\newblock \doi{10.1249/MSS.0000000000000542}.
+
+\bibitem{Voss2014}
+Voss MW, Carr LJ, Clark R, and \textbf{Weng T} (mar 2014).
+\newblock {Revenge of the “sit” II: Does lifestyle impact neuronal and
+  cognitive health through distinct mechanisms associated with sedentary
+  behavior and physical activity?}
+\newblock \emph{Mental Health and Physical Activity}, 7(1):9--24.
+\newblock \doi{10.1016/j.mhpa.2014.01.001}.
+
+\end{thebibliography}

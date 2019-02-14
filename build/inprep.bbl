@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Cole}
+Cole R, Hazeltine E, \textbf{Weng TB}, Wharff C, Sigurdsson G, Schmid P,
+  Magnotta VA, Pierce GL, and Voss MW.
+\newblock {(\textit{submitted}). Cardiorespiratory fitness predicts greater
+  hippocampal volume and rate of episodic associative learning in older
+  adults}.
+
+\bibitem{Dodla}
+Dodla M, \textbf{Weng TB}, Vela R, Church-Lang J, and Craddock RC.
+\newblock {Customized head molds reduce motion during structural MRI scans}.
+
+\bibitem{Sutterer}
+Sutterer MJ, \textbf{Weng TB}, Wong C, Burzynska AZ, Chaddock-Heyman L, Monti
+  J, McAuley E, Kramer AF, and Voss MW.
+\newblock {The role of the salience network in dynamic network interactions and
+  its relevance for aging-related differences in cognitive control}.
+
+\bibitem{Wenga}
+\textbf{Weng TB}, Wong C, Burzynska AZ, Chaddock-Heyman L, Monti J, McAuley E,
+  Kramer AF, and Voss MW.
+\newblock {Clarifying concepts of functional network disruption with aging:
+  common and distinct roles of network competition and segregation in cognitive
+  control}.
+
+\end{thebibliography}

@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: build/talk.aux
+The style file: cvbib.bst
+Database file #1: MyTalks.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 9 entries,
+            3111 wiz_defined-function locations,
+            661 strings with 6343 characters,
+and the built_in function-call counts, 5714 in all, are:
+= -- 558
+> -- 63
+< -- 0
++ -- 54
+- -- 54
+* -- 317
+:= -- 594
+add.period$ -- 36
+call.type$ -- 9
+change.case$ -- 45
+chr.to.int$ -- 36
+cite$ -- 9
+duplicate$ -- 666
+empty$ -- 523
+format.name$ -- 18
+if$ -- 1162
+int.to.chr$ -- 36
+int.to.str$ -- 9
+missing$ -- 81
+newline$ -- 51
+num.names$ -- 18
+pop$ -- 315
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 90
+stack$ -- 0
+substring$ -- 513
+swap$ -- 234
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 45
+warning$ -- 0
+while$ -- 27
+width$ -- 10
+write$ -- 104

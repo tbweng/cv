@@ -1,0 +1,64 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Weng2015b}
+\textbf{Weng TB} (2015).
+\newblock {Cognitive affective neuroscience of physical activity and exercise
+  behaviors in older adults}.
+\newblock In \emph{Department of Psychology Annual Data Blitz}. Iowa City, IA.
+
+\bibitem{Weng2014d}
+\textbf{Weng TB} (2014).
+\newblock {Differential effects of acute exercise on cognitive processes}.
+\newblock In \emph{16th Annual James F. Jakobsen Graduate Conference}. Iowa
+  City, IA.
+
+\bibitem{Weng2014f}
+\textbf{Weng TB} (2014).
+\newblock {The acute effects of aerobic exercise on functional networks of the
+  aging human brain}.
+\newblock In \emph{Department of Psychology Annual Data Blitz}. Iowa City, IA.
+
+\bibitem{Weng2014e}
+\textbf{Weng TB} (2014).
+\newblock {The acute effects of exercise on functional networks of the aging
+  human brain}.
+\newblock In \emph{Benton Neuropsychology Laboratory Meeting}. Iowa City, IA.
+
+\bibitem{Weng2014c}
+\textbf{Weng TB} (2014).
+\newblock {The acute effects of exercise on the brain and cognition}.
+\newblock In \emph{Department of Psychology Graduate Research Seminar}. Iowa
+  City, IA.
+
+\bibitem{Weng2013}
+\textbf{Weng TB} (2013).
+\newblock {Examining the acute neurovascular effects of exercise with the
+  arterial spin labeling MRI technique}.
+\newblock In \emph{Translational Vascular Physiology Laboratory Meeting}. Iowa
+  City, IA.
+
+\bibitem{Weng2013b}
+\textbf{Weng TB} (2013).
+\newblock {The acute effects of exercise as a method of investigating the
+  effects of exercise on the brain and cognition}.
+\newblock In \emph{Behavioral {\&} Cognitive Neuroscience Seminar Series}. Iowa
+  City, IA.
+
+\bibitem{Weng2013a}
+\textbf{Weng TB} (2013).
+\newblock {The glass half full: plasticity and cognitive aging}.
+\newblock In \emph{15th Annual James F. Jakobsen Graduate Conference}. Iowa
+  City, IA.
+
+\bibitem{Weng2011b}
+\textbf{Weng TB} (2011).
+\newblock {Teaching an old dog new tricks: The role of practice and inhibitory
+  control on working memory in older adult}.
+\newblock In \emph{Division of Brain {\&} Cognition Seminar Series}. Urbana,
+  IL.
+
+\end{thebibliography}
