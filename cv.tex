@@ -67,11 +67,11 @@
 
 \name{Timothy B.}{Weng, Ph.D.}
 \title{Curriculum Vitae}
-%\address{4441 Goodfellows Ct.}{Tucker, Georgia 30084}{}
-\email{timothy-weng@uiowa.edu}
-\phone[mobile]{+1~(630)~809-8264}
+\email{timothy.weng@austin.utexas.edu}
+%\phone[mobile]{+1~(630)~809-8264}
 \social[github]{tbweng}
-\extrainfo{Prepared \today}
+% \extrainfo{Prepared \today}
+\extrainfo{Prepared February 14, 2019}
 
 \begin{document}
 \makecvtitle
@@ -90,8 +90,38 @@
      \underline{Committee}: Daniel Tranel, Natalie Denburg, Jatin Vaidya, and Ryan LaLumiere}\medskip
 \cventry{08/2007 -- 05/2011}{BS, Psychology (Brain \& Cognition)}{University of Illinois at Urbana-Champaign}{Urbana, IL}{}{}{}
 
+\section{Technical Expertise} \smallskip \hrule \medskip
+Data analysis, structural/functional magnetic resonance imaging,
+    resting state functional connectivity, software development for fMRI analysis,
+    experimental design, cognitive testing, analysis of saliva biomarkers, psychophysiology
+\subsection{Technologies}
+\cvline{}{Scientific:
+    FSL, AFNI, FreeSurfer,    % fMRI
+    Nipype, Jupyter,                 % fMRI/Python
+    E-prime, AcqKnowledge}
+\cvline{}{Cluster computing: Son of Grid Engine (SGE), Slurm}
+\cvline{}{Version control: git (GitHub)}
+
+\subsection{Programming Languages}
+\cvline{}{Bash, R, \LaTeX, MATLAB, Python}
+
+\bigskip{}
+\section{Software} \smallskip \hrule \medskip
+\subsection{Contributions to Open Source Scientific Software}
+\textbf{HBC Lab Resting State Repository} \\
+Repository of scripts for processing resting-state functional connectivity data\\
+\emph{Address:} \href{https://github.com/HBClab/RestingState}{https://github.com/HBClab/RestingState}\\
+\emph{Role:} Developer, Contributor\\
+
+\textbf{GE DICOM Converter} \\
+Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
+\emph{Address:} \href{https://github.com/HBClab/GE_dcm_to_nii}{https://github.com/HBClab/GE\_dcm\_to\_nii}\\
+\emph{Role:} Contributor
+
+\clearpage
+
 \nocitepr{*}
-\nociteinprep{Pontifex,Vossa,Weng,Sutterer}
+\nociteinprep{Cole,Dodla,Wenga,Sutterer}
 \nocitenopr{Weng2016}
 \nocitepost{*}
 \nocitetalk{*}
@@ -102,7 +132,7 @@
 \bibliographypr{MyPubs}
 \bibliographystylenopr{cvbib}
 \bibliographynopr{MyPubs_nonPR}
-\bibliographystyleinprep{unsrt}
+\bibliographystyleinprep{cvbib}
 \bibliographyinprep{MyInPrep}
 
 
@@ -113,34 +143,6 @@
 \bibliographystyletalk{cvbib}
 \bibliographytalk{MyTalks}
 
-\section{Technical Expertise} \smallskip \hrule \medskip
-Data analysis, structural/functional magnetic resonance imaging,
-    resting state functional connectivity, software development for fMRI analysis,
-    experimental design, cognitive testing, analysis of saliva biomarkers, psychophysiology
-\subsection{Technologies}
-\cvline{}{Scientific:
-    FSL, AFNI, FreeSurfer,    % fMRI
-    nilearn, Jupyter,                 % fMRI/Python
-    E-prime, AcqKnowledge}
-\cvline{}{Cluster computing: Oracle/Sun Grid Engine (SGE)}
-\cvline{}{Version control: git (GitHub)}
-%\cvline{Administration}{nginx, Apache, GitLab, gitolite/git-annex}
-
-\subsection{Programming Languages}
-\cvline{}{Bash, R, \LaTeX, MATLAB, Python}
-
-\bigskip{}
-\section{Software} \smallskip \hrule \medskip
-\subsection{Contributions to Open Source Scientific Software}
-\textbf{Resting State Repository} \\
-Repository of scripts for processing resting-state functional connectivity data\\
-\emph{Address:} \href{https://github.com/HBClab/RestingState}{https://github.com/HBClab/RestingState}\\
-\emph{Role:} Developer, Contributor\\
-
-\textbf{GE DICOM Converter} \\
-Converts DICOMs from GE MR750w scanner into BIDS-compatible NIfTIs\\
-\emph{Address:} \href{https://github.com/HBClab/GE_dcm_to_nii}{https://github.com/HBClab/GE\_dcm\_to\_nii}\\
-\emph{Role:} Contributor
 
 \bigskip{}
 \section{Additional Research Experience} \smallskip \hrule \medskip
@@ -215,12 +217,17 @@ Neuroscience Research, University of Illinois}
 \noindent Society for Neuroscience\\
 \noindent Cognitive Neuroscience Society\\
 
-\clearpage
-
-% \bigskip{}
 \section{References} \smallskip \hrule \medskip
 
-\cvdoublecolumn{\cvreference{Michelle W. Voss}
+\cvdoublecolumn{\cvreference{Cameron Craddock}
+    {Department of Diagnostic Medicine}
+    {The University of Texas at Austin}
+    {Austin, TX 78712}
+    {}
+    {cameron.craddock@austin.utexas.edu}
+    {+1 (512) 495-5428}%
+    }
+    {\cvreference{Michelle W. Voss}
     {Department of Psychological and Brain Sciences}
     {The University of Iowa}
     {Iowa City, IA 52242}
@@ -228,24 +235,17 @@ Neuroscience Research, University of Illinois}
     {michelle-voss@uiowa.edu}
     {+1 (319) 335-2057}%
     }
-    {\cvreference{Daniel Tranel}
-        {Department of Psychological and Brain Sciences}
-        {Department of Neurology}
-        {The University of Iowa}
-        {Iowa City, IA 52242}
-        {daniel-tranel@uiowa.edu}
-        {+1 (319) 384-6050}%
-    }
+
     \bigskip{}
 
-\cvdoublecolumn{\cvreference{Susan Lutgendorf}
-    {Department of Psychological and Brain Sciences}
-    {The University of Iowa}
-    {Iowa City, IA 52242}
-    {}
-    {susan-lutgendorf@uiowa.edu}
-    {+1 (319) 335-2432}%
-    }
+\cvdoublecolumn{\cvreference{Daniel Tranel}
+{Department of Psychological and Brain Sciences}
+{Department of Neurology}
+{The University of Iowa}
+{Iowa City, IA 52242}
+{daniel-tranel@uiowa.edu}
+{+1 (319) 384-6050}%
+}
     {\cvreference{Laura Chaddock-Heyman}
         {4221 Beckman Institute}
         {University of Illinois at Urbana-Champaign}
